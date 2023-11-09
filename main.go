@@ -11,8 +11,8 @@ func main() {
 	fmt.Println("Input b: ")
 	fmt.Scan(&b)
 
-	fmt.Println("a + b = ", a+b)
-	fmt.Println("a - b = ", a-b)
-	fmt.Println("a * b = ", a*b)
-	fmt.Println("a / b = ", a/b)
+	fmt.Println("a + b = ", (a*a)+(b * b))
+	fmt.Println("a - b = ", (a*a)-(b * b))
+	fmt.Println("a * b = ", (a*a)*(b * b))
+	fmt.Println("a / b = ", (a*a)/(b * b))
 }
